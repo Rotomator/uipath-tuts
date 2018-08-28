@@ -64,6 +64,7 @@
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="membersOnly" />
       <Variable x:TypeArguments="scg:List(sd:DataRow)" Name="filteredData" />
+      <Variable x:TypeArguments="x:Int32" Name="variable1" />
     </Sequence.Variables>
     <ui:ReadCsvFile Encoding="{x:Null}" DataTable="[membersOnly]" Delimitator="Comma" DisplayName="Read CSV" FilePath="C:\Users\Rajiv Nair\Documents\UiPath\academy\foundation\Lesson 3 - Practice 1\Members Only.csv" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1" />
     <Assign sap2010:WorkflowViewState.IdRef="Assign_5">
@@ -123,7 +124,7 @@
       </ui:ForEachRow.Body>
     </ui:ForEachRow>
     <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[membersOnly]" Delimitator="Comma" DisplayName="Write CSV" FilePath="C:\Users\Rajiv Nair\Documents\UiPath\academy\foundation\Lesson 3 - Practice 1\Members Only-Processed.csv" sap2010:WorkflowViewState.IdRef="WriteCsvFile_2" />
-    <sads:DebugSymbol.Symbol>d1dDOlxVc2Vyc1xSYWppdiBOYWlyXERvY3VtZW50c1xVaVBhdGhcYWNhZGVteVxmb3VuZGF0aW9uXExlc3NvbiAzIC0gUHJhY3RpY2UgMVxNYWluLnhhbWwhPwN/DgIBAUQFRIoCAgEmRQVMDgIBI00FXBUCARldBWgSAgERaQVpqAICAQ1qBXwVAgEGfQV9qQICAQJEM0RCAgEoRHdE1wECASdKPEpeAgElRz1HSwIBJE0eTS0CASFTC1kWAgEaXXpdigECARhjC2UWAgESaZABaZoBAgEQaaUBabQBAgEOah5qLQIBC3ALeRYCAQd9Rn1VAgEEfYsBffUBAgEDVA1YEgIBG2QNZKwBAgETcQ14FgIBCFQbVFACARxWEVbAAQIBHWShAWSpAQIBFmQ9ZEwCARR2OHadAQIBCnM5c0oCAQlWSlZaAgEgVrYBVr0BAgEe</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d1dDOlxVc2Vyc1xSYWppdiBOYWlyXERvY3VtZW50c1xVaVBhdGhcYWNhZGVteVxmb3VuZGF0aW9uXExlc3NvbiAzIC0gUHJhY3RpY2UgMVxNYWluLnhhbWwhPwOAAQ4CAQFFBUWKAgIBJkYFTQ4CASNOBV0VAgEZXgVpEgIBEWoFaqgCAgENawV9FQIBBn4FfqkCAgECRTNFQgIBKEV3RdcBAgEnSzxLXgIBJUg9SEsCASROHk4tAgEhVAtaFgIBGl56XooBAgEYZAtmFgIBEmqQAWqaAQIBEGqlAWq0AQIBDmseay0CAQtxC3oWAgEHfkZ+VQIBBH6LAX71AQIBA1UNWRICARtlDWWsAQIBE3INeRYCAQhVG1VQAgEcVxFXwAECAR1loQFlqQECARZlPWVMAgEUdzh3nQECAQp0OXRKAgEJV0pXWgIBIFe2AVe9AQIBHg==</sads:DebugSymbol.Symbol>
   </Sequence>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
