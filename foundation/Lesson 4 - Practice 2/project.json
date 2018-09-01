@@ -1,0 +1,14 @@
+{
+  "name": "Lesson 4 - Practice 2",
+  "description": "Lesson 4 - Practice 2",
+  "main": "Main.xaml",
+  "dependencies": {},
+  "excludedData": [
+    "Private:*",
+    "*password*"
+  ],
+  "toolVersion": "18.2",
+  "projectVersion": "1.0.6818.35772",
+  "packOptions": {},
+  "runtimeOptions": {}
+}
