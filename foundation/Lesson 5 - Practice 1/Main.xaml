@@ -128,7 +128,8 @@
       </ui:BrowserScope>
     </Sequence>
     <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[ExtractDataTable]" Delimitator="Comma" DisplayName="Write CSV" FilePath="C:\Users\Rajiv Nair\Code\UiPath\foundation\Lesson 5 - Practice 1\LaptopList.csv" sap2010:WorkflowViewState.IdRef="WriteCsvFile_1" />
-    <sads:DebugSymbol.Symbol>d0pDOlxVc2Vyc1xSYWppdiBOYWlyXENvZGVcVWlQYXRoXGZvdW5kYXRpb25cTGVzc29uIDUgLSBQcmFjdGljZSAxXE1haW4ueGFtbCM7A4QBDgIBAT44PlUCAQJABW8WAgEUcAWBARACAQeCAQWCAZUCAgEDQLABQLgBAgEmQL0BQMsBAgElRgtsFgIBFXEHgAEZAgEIggFGggFaAgEFggGQAYIB4QECAQRHDWsfAgEWcaMCcdoCAgETdw19GAIBCUd7R4MBAgEjTRNoHgIBF3gPfCACAQpOFWcgAgEYeOoJeO8JAgESeqIBetsBAgEReGl4bgIBEHgveDUCAQ94QHhUAgENeIEKeLQMAgEMeKoBeKYJAgELTxdmKQIBGU+yAk+dAwIBIlUdYygCARpWH1otAgEfWx9iKgIBG1iyAVjcAQIBIVa2Ala+AgIBIGCyAWDdAQIBHl1LXU8CAR1dPl1CAgEc</sads:DebugSymbol.Symbol>
+    <ui:CloseTab Browser="[ebay]" DisplayName="Close tab" sap2010:WorkflowViewState.IdRef="CloseTab_1" />
+    <sads:DebugSymbol.Symbol>d0pDOlxVc2Vyc1xSYWppdiBOYWlyXENvZGVcVWlQYXRoXGZvdW5kYXRpb25cTGVzc29uIDUgLSBQcmFjdGljZSAxXE1haW4ueGFtbCU7A4UBDgIBAT44PlUCAQJABW8WAgEXcAWBARACAQqCAQWCAZUCAgEGgwEFgwFqAgEDQLABQLgBAgEpQL0BQMsBAgEoRgtsFgIBGHEHgAEZAgELggFGggFaAgEIggGQAYIB4QECAQeDARqDASICAQRHDWsfAgEZcaMCcdoCAgEWdw19GAIBDEd7R4MBAgEmTRNoHgIBGngPfCACAQ1OFWcgAgEbeOoJeO8JAgEVeqIBetsBAgEUeGl4bgIBE3gveDUCARJ4QHhUAgEQeIEKeLQMAgEPeKoBeKYJAgEOTxdmKQIBHE+yAk+dAwIBJVUdYygCAR1WH1otAgEiWx9iKgIBHliyAVjcAQIBJFa2Ala+AgIBI2CyAWDdAQIBIV1LXU8CASBdPl1CAgEf</sads:DebugSymbol.Symbol>
   </Sequence>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -182,14 +183,15 @@
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="WriteCsvFile_1" sap:VirtualizedContainerService.HintSize="508,86.6666666666667" />
-      <sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="530,1919.33333333333">
+      <sap2010:ViewStateData Id="CloseTab_1" sap:VirtualizedContainerService.HintSize="508,22" />
+      <sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="530,1981.33333333333">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Main_1" sap:VirtualizedContainerService.HintSize="570,1999.33333333333" />
+      <sap2010:ViewStateData Id="Main_1" sap:VirtualizedContainerService.HintSize="570,2061.33333333333" />
     </sap2010:ViewStateManager>
   </sap2010:WorkflowViewState.ViewStateManager>
 </Activity>
